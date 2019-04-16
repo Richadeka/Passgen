@@ -51,6 +51,7 @@ class Window(QtWidgets.QWidget):
 
         self.setWindowTitle("Password Generator")
         self.setGeometry(540,150,400,500)
+        self.setFixedSize(400,500)
         self.setWindowIcon(QtGui.QIcon(icon))
         self.l1=QtWidgets.QLabel(self)
         self.l1.setText("<u>Password Generator V1.0</u>")
